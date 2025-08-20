@@ -44,3 +44,5 @@ print(f'Array e filled with sevens:\n{e}')
 #You can also create an identity matrix using the eye function:
 f = np.eye(3)  # Create a 3x3 identity matrix
 print(f'Identity matrix f:\n{f}')
+
+print(f'Identity matrix f shape: {f.shape}')  # Output: (3, 3)
